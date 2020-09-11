@@ -45,4 +45,4 @@ Route::get('/', function(){
     return $array;
    });
 
-Route::get('/spot', "API\SpotController@index");
+Route::resource('/spot', "API\SpotController");
